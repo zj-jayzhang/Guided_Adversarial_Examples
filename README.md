@@ -27,7 +27,7 @@ python cifar_train.py --gpu 0 --imb_type exp --imb_factor 0.01 --loss_type LDAM 
 
 ```bash
 python train_adv.py --gpu 0 --imb_type exp --imb_factor 0.01 --loss_type CE --train_rule None \ 
-        --resume checkpoint/cifar10_resnet32_CE_None_exp_0.01_0/ckpt.best.pth.tar
+        --resume checkpoint/cifar10_resnet32_CE_None_exp_0.01_0/ckpt.best.pth.tar --lr 0.001
 ```
 ![image](https://user-images.githubusercontent.com/33173674/187352662-ee6cbd9b-9f99-4133-93e1-9e04fa6c513e.png)
 
