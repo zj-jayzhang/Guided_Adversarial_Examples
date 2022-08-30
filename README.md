@@ -31,6 +31,9 @@ python train_adv.py --gpu 0 --imb_type exp --imb_factor 0.01 --loss_type CE --tr
 ```
 ![image](https://user-images.githubusercontent.com/33173674/187352662-ee6cbd9b-9f99-4133-93e1-9e04fa6c513e.png)
 
+![image](https://user-images.githubusercontent.com/33173674/187353220-70368fef-7707-440c-9cce-78f361e2e6eb.png)
+
+
 > Note that we just simply finetune the biased model for several epochs, which is very efficient and effective.
 
 ### Citation
